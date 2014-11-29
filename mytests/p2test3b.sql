@@ -1,0 +1,2 @@
+USE PERFTEST;
+SELECT t4b FROM p2test3 WHERE t4a = 0;

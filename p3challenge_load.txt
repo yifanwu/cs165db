@@ -1,0 +1,5 @@
+create(ta,"unsorted")
+create(tb,"unsorted")
+create(tc,"unsorted")
+create(td,"unsorted")
+load("../cs165-tests/p3challenge/t.csv")

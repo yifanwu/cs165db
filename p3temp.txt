@@ -1,0 +1,2 @@
+create(ta,"b+tree")
+load("../cs165-tests/p3challenge/ta.csv")

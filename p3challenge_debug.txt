@@ -1,0 +1,8 @@
+v1=select(tb,1000)
+f1=fetch(ta,v1)
+v2=select(ud,9000,9000000)
+f2=fetch(ua,v2)
+j1,j2=hashjoin(f1,f2)
+fetch(tb,j1)
+fetch(ta,j1)
+fetch(uc,j1)

@@ -1,0 +1,5 @@
+create(ub,"unsorted")
+create(ua,"unsorted")
+create(uc,"unsorted")
+create(ud,"unsorted")
+load("../cs165-tests/p3challenge/u.csv")

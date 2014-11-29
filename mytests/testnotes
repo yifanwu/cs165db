@@ -1,0 +1,3 @@
+loading for mariaDB took 33 seconds, and was eating up CPU (same as my DB)
+the same query took:
+9 rows in set (18.53 sec)

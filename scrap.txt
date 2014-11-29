@@ -1,0 +1,28 @@
+
+/*******************************************
+ * Write the load
+ * for UNSORTED and SORTED
+ * CURRENTLY NOT USED
+ *
+int write_block_to_file(column_t *col, int *data)
+{
+  // first put the file type
+  // put meta data in:
+
+  if (fwrite(&col->m, sizeof(column_meta_t), 1, col->fp) != 1) {
+    goto error;
+  }
+
+  if (fwrite(&data, sizeof(int), col->m.size, col->fp) != col->m.size) {
+    goto error;
+  }
+
+  return 0;
+
+error:
+  perror("error writing to file");
+  exit(EXIT_FAILURE);
+}
+
+ ******************************************/
+
